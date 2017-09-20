@@ -10,4 +10,6 @@ end
 
 def assign_rooms(array)
   arr = array.map { |i| "Hello, #{i}! You'll be assigned to room #{(i.index + 1)}"}
+  arr
 end
+
