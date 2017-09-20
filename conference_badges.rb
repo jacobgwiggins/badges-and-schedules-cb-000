@@ -4,12 +4,12 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  arr = array.each { |i| "Hello, my name is #{i}."}
+  arr = array.map { |i| "Hello, my name is #{i}."}
   arr
 end
 
 def assign_rooms(array)
-  arr = array.each { |i| "Hello, #{i}! You'll be assigned to room #{(array.index(i) + 1)}!"}
+  arr = array.map { |i| "Hello, #{i}! You'll be assigned to room #{(array.index(i) + 1)}!"}
   arr
 end
 
