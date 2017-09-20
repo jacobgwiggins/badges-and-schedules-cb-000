@@ -9,6 +9,6 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  arr = array.map { |i| "Hello, #{i}! You'll be assigned to room #{(array.index(i) + 1)}"}
+  arr = array.map { |i| "Hello, #{i}! You'll be assigned to room #{(array.index(i) + 1)}!"}
   arr
 end
